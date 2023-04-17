@@ -16,6 +16,8 @@ public class PlayerMove : MonoBehaviour
     private bool movingVertically = false;
     private bool movingHorizontally = false;
 
+    private Rigidbody playerRB;
+
     private float toRotateTo;
     private float xRotation;
     private float yRotation;
@@ -23,11 +25,11 @@ public class PlayerMove : MonoBehaviour
 
     private void Start()
     {
-        
+        playerRB = gameObject.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //  If the player is pressing a button...
         if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.LeftArrow) ||
@@ -95,8 +97,8 @@ public class PlayerMove : MonoBehaviour
         }
 
         //  Either way, move by velocity vector
-        transform.position += speed * Time.deltaTime * velocityVector;
-        mainCamera.transform.position += speed * Time.deltaTime * velocityVector;
+        playerRB.MovePosition(transform.position + velocityVector * speed * Time.deltaTime);
+        mainCamera.transform.position = transform.position + new Vector3(0, 17, -4);
     }
 
     private void CheckMovementOfPlayer()
