@@ -1,0 +1,513 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1681592978181914, "dur": 805782, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681592978182481, "dur": 8628, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681592978191113, "dur": 64039, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681592978255154, "dur": 413309, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681592978668467, "dur": 313342, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681592978981813, "dur": 5881, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681592978989719, "dur": 30, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1681592978481256, "dur": 152573, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681592978482403, "dur": 50511, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681592978611150, "dur": 5867, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681592978617022, "dur": 16768, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681592978618040, "dur": 14390, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681592978639039, "dur": 1637, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681592978638156, "dur": 2560, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681592978991050, "dur": 971, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1681592978717954, "dur":1777, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978719742, "dur":55, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1681592978719820, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1681592978719835, "dur":551, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1681592978720430, "dur":814, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978721244, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978935922, "dur":491, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936413, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936431, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936435, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936443, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936446, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936455, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936458, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936468, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936471, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936478, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936481, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936490, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936493, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936500, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936503, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936512, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936535, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978936696, "dur":3271, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1681592978720981, "dur":274, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978721259, "dur":4397, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978725669, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681592978725679, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978727622, "dur":755, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681592978728385, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681592978728452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978728734, "dur":5021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681592978733759, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1681592978733898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978733972, "dur":3092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1681592978737154, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1681592978737345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978737355, "dur":4772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1681592978742226, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1681592978742414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978743078, "dur":17652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1681592978760819, "dur":1799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978762622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978762634, "dur":2612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978765321, "dur":1632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978766958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978766968, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978769084, "dur":1950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978771039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978771047, "dur":3896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978775016, "dur":4870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978779891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978779900, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978781773, "dur":2441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978784220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978784229, "dur":3377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978787714, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978788082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978788090, "dur":2824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978791003, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978791505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978791514, "dur":6709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978798309, "dur":4468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978802783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978802794, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978804734, "dur":1181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978805919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978805925, "dur":3518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978809545, "dur":2300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978811850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978811860, "dur":3653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978815592, "dur":3073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978818670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978818704, "dur":4321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978823113, "dur":986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978824103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978824112, "dur":2771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978826971, "dur":1015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978827991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978827999, "dur":3571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978831650, "dur":853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978832508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978832517, "dur":3024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978835623, "dur":4390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978840017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978840023, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978841851, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978842190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978842197, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978844965, "dur":23977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978868949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978868959, "dur":4085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681592978873111, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1681592978873218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978873337, "dur":3411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1681592978877143, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1681592978877530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978877538, "dur":4854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1681592978882480, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1681592978882562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681592978882569, "dur":3682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1681592978886393, "dur":49540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978721361, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978721361, "dur":4306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978725673, "dur":1368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1681592978727045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978730191, "dur":3815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1681592978734116, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1681592978734258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978734267, "dur":2740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1681592978737099, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1681592978737842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978737889, "dur":4625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1681592978742601, "dur":1984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978744592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978745071, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978747239, "dur":12126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978759369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978759377, "dur":2854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978762296, "dur":1856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978764159, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978764172, "dur":3283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978767535, "dur":1654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978769194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978769203, "dur":3985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978773273, "dur":4301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978777577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978777606, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978780643, "dur":2513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978783161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978783171, "dur":3978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978787235, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978787576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978787585, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978790153, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978790513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978790525, "dur":3781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978794399, "dur":1674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978796078, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978796090, "dur":4755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978800932, "dur":3628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978804567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978804578, "dur":3603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978808260, "dur":1627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978809953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978809967, "dur":3316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978813381, "dur":1918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978815305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978815316, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978817507, "dur":1418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978818931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978818939, "dur":3581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978822607, "dur":2058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978824671, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978824692, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978827549, "dur":1804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978829359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978829371, "dur":3089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978832548, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978833121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978833131, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978836236, "dur":6014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978842255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978842263, "dur":2819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978845173, "dur":21669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978866845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978866851, "dur":5378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978872322, "dur":1340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978873666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978873674, "dur":2495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681592978876254, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681592978876362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681592978876370, "dur":7621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681592978884063, "dur":51861, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978721074, "dur":190, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978721264, "dur":4503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978725768, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681592978725953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978731084, "dur":4853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681592978736048, "dur":1135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1681592978737187, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978737202, "dur":4213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1681592978741491, "dur":1477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege.exe" }}
+,{ "pid":12345, "tid":3, "ts":1681592978742971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978742978, "dur":2789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege.exe" }}
+,{ "pid":12345, "tid":3, "ts":1681592978745875, "dur":7809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978753691, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978753705, "dur":2026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978755773, "dur":4447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978760225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978760233, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978762463, "dur":2135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978764602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978764609, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978768512, "dur":1871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978770387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978770393, "dur":4373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978774867, "dur":4615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978779487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978779494, "dur":2340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978781918, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978782229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978782239, "dur":4800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978787134, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978787499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978787511, "dur":5841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978793435, "dur":3096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978796536, "dur":453, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978797001, "dur":6157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978803235, "dur":2157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978805397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978805405, "dur":3943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978809425, "dur":2280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978811712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978811723, "dur":3580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978815396, "dur":2779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978818180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978818189, "dur":4534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978822832, "dur":4345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978827182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978827190, "dur":3391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978830661, "dur":1130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978831796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978831808, "dur":5645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978837613, "dur":5409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978843027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978843033, "dur":3350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978846447, "dur":3534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978849988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978849998, "dur":2741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978852840, "dur":14939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978867802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978867808, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978870619, "dur":5157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978875780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978875789, "dur":7782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681592978883743, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1681592978884105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681592978884115, "dur":5550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1681592978889702, "dur":46225, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978721197, "dur":72, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978721269, "dur":4402, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978725672, "dur":627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1681592978726303, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978731608, "dur":2853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1681592978734541, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1681592978734707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978735287, "dur":6001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1681592978741371, "dur":18330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1681592978759704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978759710, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1681592978762626, "dur":2191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978764823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978764831, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978767895, "dur":1172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978769072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978769081, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978772271, "dur":10063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978782337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978782343, "dur":5025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978787475, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978787983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978788000, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978790829, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978791181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978791191, "dur":3494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978794772, "dur":1484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978796287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978796294, "dur":5696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978802077, "dur":2869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978804952, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978804965, "dur":3205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978808253, "dur":1795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978810052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978810060, "dur":3536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978813673, "dur":2802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978816481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978816530, "dur":2487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978819115, "dur":2811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978821931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978821942, "dur":2964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978824993, "dur":1726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978826723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978826737, "dur":3287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978830246, "dur":926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978831177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978831188, "dur":2715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978833992, "dur":22310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978856306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978856312, "dur":4720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978861124, "dur":8572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978869713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978869723, "dur":2865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681592978872656, "dur":704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1681592978873366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978876254, "dur":5574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1681592978881919, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681592978882037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681592978882045, "dur":3114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681592978885256, "dur":50686, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978721405, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978721406, "dur":4323, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978725729, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1681592978726242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978730180, "dur":4106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1681592978734347, "dur":994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1681592978735344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978735426, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1681592978737602, "dur":56346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978793953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978794352, "dur":8869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978803316, "dur":2093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978805413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978805421, "dur":3827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978809329, "dur":1526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978810859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978810867, "dur":4240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978815184, "dur":2892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978818082, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978818103, "dur":4015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978822201, "dur":1676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978823881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978823889, "dur":2351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978826326, "dur":1682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978828051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978828061, "dur":3366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978831510, "dur":577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978832091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978832099, "dur":2892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978835086, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978835486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978835495, "dur":3030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978838589, "dur":3025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978841620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978841630, "dur":2437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978844152, "dur":5214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978849373, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978849390, "dur":3276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978852738, "dur":13981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978866724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978866732, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978870099, "dur":12838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978882942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681592978882951, "dur":6519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681592978889566, "dur":46364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978721500, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978721500, "dur":4212, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978725726, "dur":1329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1681592978727058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978730173, "dur":3705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1681592978733949, "dur":891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1681592978734843, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978734851, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1681592978737196, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1681592978737383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978737391, "dur":5091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1681592978742568, "dur":2884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978745458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978745605, "dur":3506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978749177, "dur":11484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978760668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978760674, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978762563, "dur":2428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978764996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978765004, "dur":3447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978768531, "dur":1778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978770314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978770324, "dur":3982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978774403, "dur":3901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978778308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978778313, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978781343, "dur":1923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978783270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978783299, "dur":4769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978788144, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978788550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978788560, "dur":4151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978792801, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978793119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978793128, "dur":2672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978795875, "dur":1767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978797648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978797658, "dur":5201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978802954, "dur":1988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978804946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978804955, "dur":3539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978808575, "dur":1833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978810414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978810426, "dur":3021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978813525, "dur":2463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978815993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978816003, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978818232, "dur":1589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978819828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978819839, "dur":3526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978823447, "dur":3207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978826659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978826668, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978830733, "dur":1279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978832018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978832030, "dur":3043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978835254, "dur":4490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978839748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978839755, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978841809, "dur":3007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978844822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978844831, "dur":2330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978847230, "dur":25728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978872963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978872973, "dur":3476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681592978876532, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1681592978876862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978876870, "dur":4333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1681592978881327, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1681592978881418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681592978881427, "dur":3848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1681592978885355, "dur":50590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978721566, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978721567, "dur":4091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978725669, "dur":924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1681592978726596, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978729232, "dur":4418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1681592978733716, "dur":982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1681592978734701, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978734711, "dur":2610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1681592978737412, "dur":5291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978742733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978743212, "dur":3701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978747011, "dur":12109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978759128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978759139, "dur":3002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978762217, "dur":1440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978763708, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978763723, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978766296, "dur":1701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978768002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978768012, "dur":1833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978769960, "dur":1951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978771918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978771931, "dur":3066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978775093, "dur":5624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978780722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978780730, "dur":1869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978782666, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978783005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978783016, "dur":8671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978791771, "dur":544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978792322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978792332, "dur":4708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978797119, "dur":1068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978798193, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978798203, "dur":4822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978803103, "dur":2198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978805305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978805311, "dur":3684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978809086, "dur":8479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978817570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978817582, "dur":4111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978821806, "dur":5088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978826900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978826911, "dur":4616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978831617, "dur":1491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978833122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978833132, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978836182, "dur":21765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978857950, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978857957, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978860402, "dur":15130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978875539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978875549, "dur":3482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681592978879119, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/Vampire Siege_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1681592978879204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681592978879215, "dur":7006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/Vampire Siege_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1681592978886306, "dur":49637, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681592978721607, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681592978721608, "dur":4052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681592978725671, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1681592978725953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681592978730812, "dur":3398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1681592978734310, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1681592978734529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681592978736240, "dur":2593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1681592978738908, "dur":175915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/farti/Vamp/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681592978914829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681592978914837, "dur":20867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/farti/Vamp/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681592978935851, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1681592978935858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681592978943445, "dur":3203, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1681592978992307, "dur": 2577, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681592978989686, "dur": 5266, "ph": "X", "name": "Write chrome-trace events", "args": {} },
