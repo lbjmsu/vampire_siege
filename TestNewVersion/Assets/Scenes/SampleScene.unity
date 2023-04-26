@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -342,7 +342,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 117083820}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6aa6f91e235806848870aca961ec4c28, type: 3}
+  m_Script: {fileID: 11500000, guid: 8990b9f1b3772dc47b388c6d21dd8ecb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4505498089959578516, guid: 073bece9896bb3442b758bfa9359a595, type: 3}
@@ -526,7 +526,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 599784650}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23d61b416add704439b911237ac06fd4, type: 3}
+  m_Script: {fileID: 11500000, guid: 8990b9f1b3772dc47b388c6d21dd8ecb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4505498089959578516, guid: 073bece9896bb3442b758bfa9359a595, type: 3}

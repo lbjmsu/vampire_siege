@@ -6,6 +6,7 @@ TagManager:
   tags:
   - vamp
   - projectile
+  - Ground
   layers:
   - Default
   - TransparentFX

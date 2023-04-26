@@ -17,9 +17,12 @@ public class PlayerMove : MonoBehaviour
 
     private Rigidbody playerRB;
 
+    public static float speedStatic;
+
     private void Start()
     {
         playerRB = gameObject.GetComponent<Rigidbody>();
+        speedStatic = speed;
     }
 
     // Update is called once per frame
@@ -113,7 +116,7 @@ public class PlayerMove : MonoBehaviour
     /// <summary>
     ///     Translates from Unity angles to Cartesian angles.
     /// </summary>
-    private float ToCartestian(float inAngle)
+    public static float ToCartestian(float inAngle)
     {
         return (inAngle * -1 + 450) % 360;
     }
@@ -121,7 +124,7 @@ public class PlayerMove : MonoBehaviour
     /// <summary>
     ///     Translates from Cartesian angles to Unity angles.
     /// </summary>
-    private float ToUnityAngle(float inAngle)
+    public static float ToUnityAngle(float inAngle)
     {
         return ((inAngle + 90) % -1 - 180) * -1;
     }
