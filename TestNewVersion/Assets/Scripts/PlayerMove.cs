@@ -14,6 +14,7 @@ public class PlayerMove : MonoBehaviour
     [Header("Set dynamically")]
     public Vector3 movementDirection;
     public float rotationAmount;
+    public bool reverseRotation;
 
     private Rigidbody playerRB;
 
@@ -52,6 +53,8 @@ public class PlayerMove : MonoBehaviour
     {
         //      SECTION: Creation of the movement/rotation vectors
 
+        reverseRotation = false;
+
         //  If player one or player two are moving forward...
         if ((playerOne && Input.GetKey(KeyCode.W)) || (!playerOne && Input.GetKey(KeyCode.UpArrow)))
         {
@@ -75,6 +78,9 @@ public class PlayerMove : MonoBehaviour
 
             //  Makes the player do the opposite movement
             movementDirection *= -1;
+
+            //  Mirror turning since player is moving backwards
+            reverseRotation = true;
         }
 
         //  Otherwise, movement direction lerps towards zero. Now it will affect the speed of the character.
@@ -110,7 +116,7 @@ public class PlayerMove : MonoBehaviour
         playerRB.MovePosition(transform.position + speed * Time.deltaTime * movementDirection);
 
         //  Rotate the player to this new rotation
-        transform.Rotate(new Vector3(0, rotationAmount, 0));
+        transform.Rotate(new Vector3(0, rotationAmount * (reverseRotation ? -1 : 1), 0));
     }
 
     /// <summary>

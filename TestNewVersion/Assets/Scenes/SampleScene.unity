@@ -211,6 +211,7 @@ GameObject:
   - component: {fileID: 117083822}
   - component: {fileID: 117083821}
   - component: {fileID: 117083827}
+  - component: {fileID: 117083828}
   m_Layer: 0
   m_Name: PlayerTwo
   m_TagString: Player
@@ -246,7 +247,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 1
 --- !u!114 &117083823
 MonoBehaviour:
@@ -262,11 +263,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   velocitySmoothness: 5
-  rotationSpeed: 0.4
+  rotationSpeed: 0.5
   rotationSmoothness: 0.25
   playerCamera: {fileID: 1678310744}
   movementDirection: {x: 0, y: 0, z: 0}
   rotationAmount: 0
+  reverseRotation: 0
 --- !u!23 &117083824
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -347,6 +349,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4505498089959578516, guid: 073bece9896bb3442b758bfa9359a595, type: 3}
   projectileSpeed: 40
+--- !u!114 &117083828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117083820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce1691d7249a964485614f72a1289c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCam: {fileID: 963194227}
+  opaqueMaterial: {fileID: 2100000, guid: 17ab4951754340b4f9b711fecc288e40, type: 2}
+  translucentMaterial: {fileID: 2100000, guid: 601e7e24fcc95c74cb1c7a55c76d32cd, type: 2}
+  targetDirection: {x: 0, y: 0, z: 0}
+  previousObjectHit: {fileID: 0}
 --- !u!1 &476203301
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,6 +414,7 @@ GameObject:
   - component: {fileID: 599784656}
   - component: {fileID: 599784657}
   - component: {fileID: 599784658}
+  - component: {fileID: 599784659}
   m_Layer: 0
   m_Name: PlayerOne
   m_TagString: Player
@@ -416,11 +436,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   velocitySmoothness: 5
-  rotationSpeed: 0.4
+  rotationSpeed: 0.5
   rotationSmoothness: 0.25
   playerCamera: {fileID: 963194227}
   movementDirection: {x: 0, y: 0, z: 0}
   rotationAmount: 0
+  reverseRotation: 0
 --- !u!23 &599784653
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -501,7 +522,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 1
 --- !u!136 &599784657
 CapsuleCollider:
@@ -531,6 +552,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4505498089959578516, guid: 073bece9896bb3442b758bfa9359a595, type: 3}
   projectileSpeed: 40
+--- !u!114 &599784659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599784650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce1691d7249a964485614f72a1289c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCam: {fileID: 963194227}
+  opaqueMaterial: {fileID: 2100000, guid: 17ab4951754340b4f9b711fecc288e40, type: 2}
+  translucentMaterial: {fileID: 2100000, guid: 601e7e24fcc95c74cb1c7a55c76d32cd, type: 2}
+  targetDirection: {x: 0, y: 0, z: 0}
+  previousObjectHit: {fileID: 0}
 --- !u!1 &704774511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,7 +1624,7 @@ GameObject:
   - component: {fileID: 2139285212}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
